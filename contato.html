@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul class="menu_topbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre o Site</a></li>
+                <li><a href="galeria.html">Galeria de Imagens</a></li>
+                <li><a href="gerar.html">Gerar Imagens</a></li>
+            </ul>
+        </nav>
+        <img src="https://picsum.photos/1900/150" alt="Imagem representativa">
+        <h1>Contato</h1>
+    </header>
+    
+    <main class="form-contanier">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <input type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a sua Mensagem: " required>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
